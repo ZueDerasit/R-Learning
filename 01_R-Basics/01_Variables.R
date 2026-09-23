@@ -1,9 +1,9 @@
 # R Basics: Variables
 
 # Creating variables
-name <- "Zue"
-age <- 40
-height <- 153
+name <- "Maria"
+age <- 25
+height <- 159
 
 # Displaying variables
 name
