@@ -1,0 +1,38 @@
+# R Basics: Data Frames
+
+# Create a data frame
+students <- data.frame(
+  name = c("Ali", "Siti", "John"),
+  age = c(20, 21, 22),
+  score = c(75, 85, 90)
+)
+
+# Display the data frame
+students
+
+# View the structure
+str(students)
+
+# Get the number of rows
+nrow(students)
+
+# Get the number of columns
+ncol(students)
+
+# Select a column
+students$score
+
+# Select the first row
+students[1, ]
+
+# Select the first column
+students[, 1]
+
+##########################################################################################
+Data frame = a table
+This creates:
+| name | age | score |
+| ---- | --: | ----: |
+| Ali  |  20 |    75 |
+| Siti |  21 |    85 |
+| John |  22 |    90 |
