@@ -8,7 +8,7 @@ The main goal is to understand the structure, content, and quality of a dataset 
 
 ## Learning Objectives
 
-By completing this section, I should be able to:
+By completing this section, you should be able to:
 
 - Import data into R
 - Understand the structure of a dataset
